@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: inline-block;
+            border: 1px solid black;
+        }
+
+        div > p, span {
+            display: none;
+        }
+
+        div:hover > p {
+            color: red;
+            display: block;
+        }
+        div:hover > span {
+            display: block;
+        }
+
+        a {
+            color: red;            
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(0, 136, 255);
+            
+        }
+        
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            
+        }
+        
+        div:active {
+            color: beige;
+        }
+
+        a::after {
+            content: '.com';
+        }
+        li {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Passe o mouse aqui!
+        <p>Achou a frase escondida...</p>
+        <span>Parabens</span>
+    </div>
+    <div>03/09/1990</div>
+    <ul>
+        <li><a href="https://www.netflix.com/browse/genre/34399">Canal do Youtube</a></li>
+        <li><a href="https://www.netflix.com/browse/genre/34399">GitHub Repositório</a></li>
+        <li><a href="https://www.netflix.com/browse/genre/34399">Site curso em vídeo</a></li>
+        <li><a href="https://www.spotify.com">Spotify Podcast</a></li>
+    </ul>
+</body>
+</html>
