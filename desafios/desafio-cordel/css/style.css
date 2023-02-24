@@ -74,15 +74,16 @@ article > p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-110%, -50%);
+    transform: translate(-86%, -50%);
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.425);
-    padding: 20px;
+    width: 250px;
+    padding: 20px 0px 20px 40px;
     
 }
 
 #phrase_book {
-    padding: 19px;
+    padding: 20px 0px 20px 40px;
 }
 
 footer {
