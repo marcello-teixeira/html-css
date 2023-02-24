@@ -6,6 +6,7 @@
     margin: 0px;
 }
 body {
+    height: 100vh;
     color: black;
     font-family: Sriracha, cursive;
     text-align: justify;
@@ -22,7 +23,7 @@ header {
 }
 
 header > h1 {
-    font: normal 3.5em 'Passion One', cursive;
+    font: normal 4.5em 'Passion One', cursive;
 }
 
 header > h2 {
@@ -56,8 +57,8 @@ article > p {
     position: relative;
     background-color: black;
     max-width: 500px;
-    height: 600px;
-    background-attachment: scroll;
+    height: 400px;
+    background-attachment: fixed;
     background-position: right center ;
     background-size: cover;
 }
@@ -71,20 +72,16 @@ article > p {
 }
 
 .phrase {
+    display: inline-block;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-86%, -50%);
+    top: 20%;
+    
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.425);
-    width: 250px;
-    padding: 20px 0px 20px 40px;
+    padding: 10px;
     
 }
 
-#phrase_book {
-    padding: 20px 0px 20px 40px;
-}
 
 footer {
     background-color: black;
