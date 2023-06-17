@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="name"> Nome: </label>
+            <input type="text" autocomplete="name" maxlength="30" id="name" size="30" placeholder="Seu nome aqui">
+        </p>
+        <p>
+            <label for="media">Média</label>
+            <input type="number" max="10" min="0" step="0.1" required placeholder="Nota de 0 a 10" value="5">
+        </p>
+        <p> 
+            <label for="month">Liberatus:</label>
+            <input type="month">
+        </p>
+        <p>
+            <label for="date">Data da prova: </label>
+            <input type="date" required >
+        </p>
+        <p>
+            <label for="hour">Hora:</label>
+            <input type="time">
+        </p>
+        <input type="submit"> <input type="reset">
+
+
+
+
+    </form>
+</body>
+</html>
