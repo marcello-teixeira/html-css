@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* IT'LL SHOW PRINT */
+
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Site impressora no dia';
+}
