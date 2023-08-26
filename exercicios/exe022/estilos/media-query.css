@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+/* Todas as demais midías */
+
+
+/* Typical devide breakpoints 
+Pequenas telas: até 600px
+CELULAR: de 600px até 700px
+TABLET: 768px até 992px
+DESKTOP: 992px até 1200px
+Grandes telas: acima de 1200px 
+
+*/
+
+@media print {
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+        background-color: black;
+    }
+
+    main {
+        width: 70%;
+        background-color: rgba(240, 248, 255, 0.466);
+    }
+
+    #celular {display: none;}
+    #pc {display: none;}
+    #printer {display: none;}
+    #tv {display: none;}
+    #tablet {display: block;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        background-color: black;
+    }
+    main {
+        width: 70%;
+        background-color: rgba(139, 68, 139, 0.473);
+    }
+
+    #celular {display: none;}
+    #pc {display: block;}
+    #printer {display: none;}
+    #tv {display: none;}
+    #tablet {display: none;}
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+        background-color: black;
+    }
+    
+    main {
+        background-color: rgba(100, 101, 102, 0.589);
+        width: 70%;
+    }
+    
+    #celular { display: none;}
+    #pc { display: none;}
+    #tv { display: block;}
+    #printer { display: none;}
+    #tablet { display: none;}
+}
